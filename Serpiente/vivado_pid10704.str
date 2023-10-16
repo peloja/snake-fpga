@@ -1,0 +1,1729 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 10704
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Dec 19 22:49:59 CET 2022
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 2560x1440
+Screen resolution (DPI): 150
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+Scale size: 27
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	maria
+User home directory: C:/Users/maria
+User working directory: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2021.1
+RDI_DATADIR: C:/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/maria/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/maria/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/maria/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/vivado.log
+Vivado journal file: 	C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/vivado.jou
+Engine tmp dir: 	C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/.Xil/Vivado-10704-Maria
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,291 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\maria\Desktop\Serpiente_Display_movimientosorientados\Serpiente\Serpiente.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 89 MB (+91142kb) [00:00:12]
+// [Engine Memory]: 1,291 MB (+1201969kb) [00:00:12]
+// [GUI Memory]: 120 MB (+27281kb) [00:00:12]
+// [GUI Memory]: 134 MB (+8756kb) [00:00:15]
+// WARNING: HEventQueue.dispatchEvent() is taking  5999 ms.
+// Tcl Message: open_project C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,291 MB. GUI used memory: 86 MB. Current time: 12/19/22, 10:49:59 PM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1500.906 ; gain = 0.000 
+// Project name: Serpiente; location: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz
+// TclEventType: FILE_SET_CHANGE
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// a (cs): Critical Messages: addNotify
+// [GUI Memory]: 146 MB (+4950kb) [00:00:22]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 22 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd)]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd)]", 4); // D
+// [GUI Memory]: 169 MB (+16408kb) [00:00:46]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : xil_defaultlib.display_control_p1]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : xil_defaultlib.display_control_p1]", 9, false, false, false, false, true, false); // D - Popup Trigger
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced]", 14); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, reg_despl.vhd]", 19, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/SE_ejercicios/practicas_fpga/p1/display7seg/display7seg.srcs/sources_1/new/reg_despl.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/SE_ejercicios/practicas_fpga/p1/display7seg/display7seg.srcs/sources_1/new/reg_despl.vhd 
+dismissDialog("Remove Sources"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, div_freq.vhd]", 18, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/SE_ejercicios/practicas_fpga/p1/display7seg/display7seg.srcs/sources_1/new/div_freq.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/SE_ejercicios/practicas_fpga/p1/display7seg/display7seg.srcs/sources_1/new/div_freq.vhd 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, display_control_p1.vhd]", 17, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, display_control_p1.vhd]", 17, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/SE_ejercicios/practicas_fpga/p1/display7seg/display7seg.srcs/sources_1/new/display_control_p1.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/SE_ejercicios/practicas_fpga/p1/display7seg/display7seg.srcs/sources_1/new/display_control_p1.vhd 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, deco.vhd]", 16, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, deco.vhd]", 16, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/SE_ejercicios/practicas_fpga/p1/display7seg/display7seg.srcs/sources_1/new/deco.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/SE_ejercicios/practicas_fpga/p1/display7seg/display7seg.srcs/sources_1/new/deco.vhd 
+dismissDialog("Remove Sources"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, cont_digit.vhd]", 15, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, cont_digit.vhd]", 15, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/SE_ejercicios/practicas_fpga/p1/display7seg/display7seg.srcs/sources_1/new/cont_digit.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/SE_ejercicios/practicas_fpga/p1/display7seg/display7seg.srcs/sources_1/new/cont_digit.vhd 
+dismissDialog("Remove Sources"); // bz
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : xil_defaultlib.display_control_p1]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : xil_defaultlib.display_control_p1]", 8, false, false, false, false, true, false); // D - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // o
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Create Source File"); // F
+selectButton("CANCEL", "Cancel"); // JButton
+// 'g' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // o
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "display_control_p1"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// HOptionPane Warning: 'A file with the specified name already exists. Please enter another name. (Create Source File)'
+selectButton("OptionPane.button", "OK"); // JButton
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "display_control"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 23 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/display_control.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/display_control.vhd 
+// bz (cs):  Add Sources  : addNotify
+// I (cs): Define Module: addNotify
+dismissDialog("Add Sources"); // bz
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1225 ms.
+selectCodeEditor("SERPIENTE.vhd", 305, 35); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display_control(Behavioral) (display_control.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display_control(Behavioral) (display_control.vhd)]", 5, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1143 ms.
+// Elapsed time: 61 seconds
+selectCodeEditor("display_control.vhd", 194, 532); // bP
+typeControlKey((HResource) null, "display_control.vhd", 'v'); // bP
+selectCodeEditor("display_control.vhd", 276, 393); // bP
+selectCodeEditor("display_control.vhd", 237, 338); // bP
+selectCodeEditor("display_control.vhd", 492, 393); // bP
+selectCodeEditor("display_control.vhd", 225, 490); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 1); // m
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd)]", 4); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), xil_defaultlib.display_control_p1]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), xil_defaultlib.display_control_p1]", 11, false, false, false, false, true, false); // D - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), xil_defaultlib.display_control_p1]", 11, false); // D
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), driver : driverVGA(Behavioral) (driverVGA.vhd)]", 6); // D
+// Elapsed time: 18 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, display_control.vhd]", 17, false); // D
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_control.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 1); // m
+selectCodeEditor("SERPIENTE.vhd", 518, 189); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_control.vhd", 2); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // o
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// Elapsed time: 12 seconds
+String[] filenames31467 = {"C:/Users/maria/Desktop/cont_digit.vhd", "C:/Users/maria/Desktop/deco.vhd", "C:/Users/maria/Desktop/display_control_p1.vhd", "C:/Users/maria/Desktop/div_freq.vhd", "C:/Users/maria/Desktop/reg_despl.vhd"};
+setFileChooser(filenames31467);
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_FILES_INTO, "Copy sources into project", false); // g: FALSE
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 23 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {C:/Users/maria/Desktop/reg_despl.vhd C:/Users/maria/Desktop/cont_digit.vhd C:/Users/maria/Desktop/display_control_p1.vhd C:/Users/maria/Desktop/deco.vhd C:/Users/maria/Desktop/div_freq.vhd} 
+// bz (cs):  Add Sources  : addNotify
+dismissDialog("Add Sources"); // bz
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 1); // m
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display_control_p1(Behavioral) (display_control_p1.vhd)]", 17, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display_control_p1(Behavioral) (display_control_p1.vhd)]", 17, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/maria/Desktop/display_control_p1.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  C:/Users/maria/Desktop/display_control_p1.vhd 
+dismissDialog("Remove Sources"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display_control_p1(Behavioral) (display_control_p1.vhd)]", 17, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: remove_files  C:/Users/maria/Desktop/display_control_p1.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), driver : driverVGA(Behavioral) (driverVGA.vhd)]", 6); // D
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 177 MB (+403kb) [00:06:13]
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // o
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+String[] filenames16706 = {"C:/Users/maria/Desktop/cont_digit.vhd", "C:/Users/maria/Desktop/deco.vhd", "C:/Users/maria/Desktop/display_control_p1.vhd", "C:/Users/maria/Desktop/div_freq.vhd", "C:/Users/maria/Desktop/reg_despl.vhd"};
+setFileChooser(filenames16706);
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {C:/Users/maria/Desktop/reg_despl.vhd C:/Users/maria/Desktop/cont_digit.vhd C:/Users/maria/Desktop/display_control_p1.vhd C:/Users/maria/Desktop/deco.vhd C:/Users/maria/Desktop/div_freq.vhd} 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd)]", 4, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("SERPIENTE.vhd", 272, 40); // bP
+selectCodeEditor("SERPIENTE.vhd", 581, 255); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd)]", 4); // D
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, display_control.vhd]", 22, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, display_control.vhd]", 22, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // an
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/display_control.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/display_control.vhd 
+// Tcl Message: file delete -force C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/display_control.vhd 
+dismissDialog("Remove Sources"); // bz
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : display_control_p1(Behavioral) (display_control_p1.vhd)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : display_control_p1(Behavioral) (display_control_p1.vhd), Contador3 : cont_digit(Behavioral) (cont_digit.vhd)]", 12, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1205 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : display_control_p1(Behavioral) (display_control_p1.vhd)]", 8, true); // D - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : display_control_p1(Behavioral) (display_control_p1.vhd)]", 8); // D
+selectCodeEditor("display_control_p1.vhd", 320, 215); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_NO, "No"); // a
+// cD (cs): Launch Runs: addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// 'cA' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cD
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), gestiona : gestor(Behavioral) (gestor.vhd)]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), gestiona : gestor(Behavioral) (gestor.vhd)]", 9, false, false, false, false, false, true); // D - Double Click
+// bz (cs):  Opening Editor : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1202 ms.
+dismissDialog("Opening Editor"); // bz
+// Elapsed time: 12 seconds
+selectCodeEditor("gestor.vhd", 433, 333); // bP
+// Elapsed time: 119 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 11 seconds
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' is already up-to-date 
+// Tcl Message: [Mon Dec 19 23:00:00 2022] Launched synth_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/synth_1/runme.log [Mon Dec 19 23:00:00 2022] Launched impl_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 88 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bz (cs):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1150 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bz
+// Elapsed time: 19 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // an
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cs):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2021.1   **** Build date : Jun 10 2021 at 20:17:23     ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2021.1   ****** Build date   : May 26 2021-19:32:33     **** Build number : 2021.1.1622050353       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1500.906 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  4222 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B31800A 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,693 MB. GUI used memory: 116 MB. Current time: 12/19/22, 11:02:03 PM CET
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,693 MB (+1402663kb) [00:12:21]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 11 seconds
+dismissDialog("Auto Connect"); // bz
+// Elapsed time: 11 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 25 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gestor.vhd", 2); // m
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 23 seconds
+selectCodeEditor("gestor.vhd", 406, 478); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 2,721 MB. GUI used memory: 117 MB. Current time: 12/19/22, 11:04:10 PM CET
+// Elapsed time: 29 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cs): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cs):  Close Hardware Manager : addNotify
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  1227 ms.
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bz
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 1); // m
+// Elapsed time: 108 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 14); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master.xdc]", 16, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master.xdc]", 16, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1161 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master.xdc]", 16, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master.xdc]", 16, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 68 seconds
+selectCodeEditor("Basys-3-Master.xdc", 644, 491); // bP
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'c'); // bP
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // bP
+typeControlKey(null, null, 'z');
+selectCodeEditor("Basys-3-Master.xdc", 655, 480); // bP
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // bP
+selectCodeEditor("Basys-3-Master.xdc", 622, 487); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' is already up-to-date 
+// Tcl Message: [Mon Dec 19 23:08:07 2022] Launched synth_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/synth_1/runme.log [Mon Dec 19 23:08:07 2022] Launched impl_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 42 seconds
+selectCodeEditor("Basys-3-Master.xdc", 7, 232); // bP
+selectCodeEditor("Basys-3-Master.xdc", 54, 268); // bP
+selectCodeEditor("Basys-3-Master.xdc", 7, 315); // bP
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("Basys-3-Master.xdc", 61, 332); // bP
+selectCodeEditor("Basys-3-Master.xdc", 9, 364); // bP
+selectCodeEditor("Basys-3-Master.xdc", 56, 392); // bP
+selectCodeEditor("Basys-3-Master.xdc", 8, 412); // bP
+selectCodeEditor("Basys-3-Master.xdc", 55, 439); // bP
+selectCodeEditor("Basys-3-Master.xdc", 9, 470); // bP
+selectCodeEditor("Basys-3-Master.xdc", 61, 485); // bP
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h
+// aU (cs): Cancel Implementation: addNotify
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Cancel Implementation"); // aU
+selectCodeEditor("Basys-3-Master.xdc", 689, 417); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 16 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g: TRUE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cD (cs): Launch Runs: addNotify
+// Elapsed time: 34 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 37 seconds
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' is already up-to-date 
+// Tcl Message: [Mon Dec 19 23:10:20 2022] Launched synth_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/synth_1/runme.log [Mon Dec 19 23:10:20 2022] Launched impl_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 88 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bz (cs):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1042 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // an
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cs):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2021.1   **** Build date : Jun 10 2021 at 20:17:23     ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2021.1   ****** Build date   : May 26 2021-19:32:33     **** Build number : 2021.1.1622050353       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 2859.734 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B31800A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [GUI Memory]: 187 MB (+1218kb) [00:22:18]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 34 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cs): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cs):  Close Hardware Manager : addNotify
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  1343 ms.
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), dibuja : draw(Behavioral) (draw.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), dibuja : draw(Behavioral) (draw.vhd)]", 4, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1164 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), dibuja : draw(Behavioral) (draw.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), dibuja : draw(Behavioral) (draw.vhd)]", 4, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("draw.vhd", 303, 439); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("draw.vhd", 273, 308); // bP
+selectCodeEditor("draw.vhd", 353, 328); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gestor.vhd", 4); // m
+selectCodeEditor("gestor.vhd", 284, 57); // bP
+selectCodeEditor("gestor.vhd", 700, 222); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  1462 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' is already up-to-date 
+// Tcl Message: [Mon Dec 19 23:13:56 2022] Launched synth_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/synth_1/runme.log [Mon Dec 19 23:13:56 2022] Launched impl_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 14 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // o
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // o
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // o
+// bz (cs):  Open Elaborated Design : addNotify
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] 
+// Tcl Message: INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' 
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: SERPIENTE_FULL 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,972 MB. GUI used memory: 123 MB. Current time: 12/19/22, 11:14:15 PM CET
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 3,391 MB. GUI used memory: 123 MB. Current time: 12/19/22, 11:14:25 PM CET
+// [Engine Memory]: 3,397 MB (+596554kb) [00:24:43]
+// Xgd.load filename: C:/Xilinx/Vivado/2021.1/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 0.5s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.6s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [GUI Memory]: 200 MB (+3255kb) [00:24:44]
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3051 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 3407.098 ; gain = 275.082 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'SERPIENTE_FULL' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE_FULL.vhd:48] 
+// Tcl Message: INFO: [Synth 8-3491] module 'SERPIENTE' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE.vhd:27' bound to instance 'La_serpiente' of component 'SERPIENTE' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE_FULL.vhd:82] INFO: [Synth 8-638] synthesizing module 'SERPIENTE' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE.vhd:49] 
+// Tcl Message: 	Parameter ancho_tablero bound to: 512 - type: integer  	Parameter alto_tablero bound to: 256 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'draw' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/draw.vhd:34' bound to instance 'dibuja' of component 'draw' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE.vhd:179] INFO: [Synth 8-638] synthesizing module 'draw' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/draw.vhd:53] 
+// Tcl Message: 	Parameter ancho_tablero bound to: 512 - type: integer  	Parameter alto_tablero bound to: 256 - type: integer  
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'contador' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/contador.vhd:28' bound to instance 'contador_x' of component 'contador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/driverVGA.vhd:105] INFO: [Synth 8-638] synthesizing module 'contador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/contador.vhd:37] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'contador' (3#1) [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/contador.vhd:37] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  	Parameter End_Of_Screen bound to: 639 - type: integer  	Parameter Start_Of_Pulse bound to: 655 - type: integer  	Parameter End_Of_Pulse bound to: 751 - type: integer  	Parameter End_Of_Line bound to: 799 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'comparador' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd:27' bound to instance 'comparador_x' of component 'comparador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/driverVGA.vhd:117] INFO: [Synth 8-638] synthesizing module 'comparador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd:42] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  	Parameter End_Of_Screen bound to: 639 - type: integer  	Parameter Start_Of_Pulse bound to: 655 - type: integer  	Parameter End_Of_Pulse bound to: 751 - type: integer  	Parameter End_Of_Line bound to: 799 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'comparador' (4#1) [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd:42] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'contador' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/contador.vhd:28' bound to instance 'contador_y' of component 'contador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/driverVGA.vhd:136] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  	Parameter End_Of_Screen bound to: 479 - type: integer  	Parameter Start_Of_Pulse bound to: 489 - type: integer  	Parameter End_Of_Pulse bound to: 491 - type: integer  	Parameter End_Of_Line bound to: 520 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'comparador' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd:27' bound to instance 'comparador_y' of component 'comparador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/driverVGA.vhd:148] INFO: [Synth 8-638] synthesizing module 'comparador__parameterized1' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd:42] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  	Parameter End_Of_Screen bound to: 479 - type: integer  	Parameter Start_Of_Pulse bound to: 489 - type: integer  	Parameter End_Of_Pulse bound to: 491 - type: integer  	Parameter End_Of_Line bound to: 520 - type: integer  
+// Tcl Message: 	Parameter Bits_R bound to: 4 - type: integer  	Parameter Bits_G bound to: 4 - type: integer  	Parameter Bits_B bound to: 4 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'RGB_divider' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/RGB_divider.vhd:29' bound to instance 'divisor_RGB' of component 'RGB_divider' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE_FULL.vhd:95] INFO: [Synth 8-638] synthesizing module 'RGB_divider' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/RGB_divider.vhd:39] 
+// Tcl Message: 	Parameter Bits_R bound to: 4 - type: integer  	Parameter Bits_G bound to: 4 - type: integer  	Parameter Bits_B bound to: 4 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'RGB_divider' (15#1) [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/RGB_divider.vhd:39] INFO: [Synth 8-256] done synthesizing module 'SERPIENTE_FULL' (16#1) [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE_FULL.vhd:48] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 3456.922 ; gain = 324.906 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 3477.816 ; gain = 345.801 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 3477.816 ; gain = 345.801 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'La_serpiente/tablero' INFO: [Project 1-454] Reading design checkpoint 'c:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.dcp' for cell 'La_serpiente/sprite' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3511.328 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2021.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/constrs_1/imports/imports/Basys-3-Master.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/constrs_1/imports/imports/Basys-3-Master.xdc] 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3572.766 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 3682.125 ; gain = 550.109 
+// Tcl Message: 66 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 3682.125 ; gain = 808.070 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// [Engine Memory]: 3,570 MB (+4175kb) [00:24:47]
+// Elapsed time: 17 seconds
+dismissDialog("Open Elaborated Design"); // bz
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 32 seconds
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // E
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : display_control_p1(Behavioral) (display_control_p1.vhd)]", 8, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : display_control_p1(Behavioral) (display_control_p1.vhd), Contador4 : cont_digit(Behavioral) (cont_digit.vhd)]", 13, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 214 MB (+3779kb) [00:25:34]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bz (cs):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1263 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // an
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bz (cs):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2021.1   **** Build date : Jun 10 2021 at 20:17:23     ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2021.1   ****** Build date   : May 26 2021-19:32:33     **** Build number : 2021.1.1622050353       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 3754.711 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B31800A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+applyEnter(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, "C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit"); // ao
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bz
+// Elapsed time: 54 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gestor.vhd", 2); // m
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 3); // m
+selectCodeEditor("Basys-3-Master.xdc", 438, 193); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 3,607 MB. GUI used memory: 158 MB. Current time: 12/19/22, 11:17:20 PM CET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 0); // m
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (cs): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cs):  Close Hardware Manager : addNotify
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// WARNING: HEventQueue.dispatchEvent() is taking  2038 ms.
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bz
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd), display : display_control_p1(Behavioral) (display_control_p1.vhd)]", 8); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd)]", 3); // D
+selectCodeEditor("display_control_p1.vhd", 1155, 117); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1216 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,666 MB. GUI used memory: 198 MB. Current time: 12/19/22, 11:17:51 PM CET
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "draw.vhd", 6); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gestor.vhd", 4); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_control_p1.vhd", 3); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // m
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE_FULL.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic (2)", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE_FULL.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 1); // m
+selectCodeEditor("SERPIENTE.vhd", 117, 236); // bP
+typeControlKey((HResource) null, "SERPIENTE.vhd", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE_FULL.vhd", 4); // m
+selectCodeEditor("SERPIENTE_FULL.vhd", 450, 352); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 439, 331); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 117, 382); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("SERPIENTE_FULL.vhd", 198, 363); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'c'); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 402, 362); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 402, 362); // bP
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 1); // m
+typeControlKey((HResource) null, "SERPIENTE.vhd", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE_FULL.vhd", 4); // m
+selectCodeEditor("SERPIENTE_FULL.vhd", 622, 442); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 616, 458); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 662, 381); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 279, 366); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 248, 388); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 404, 562); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 349, 333); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE_FULL.vhd", 4); // m
+selectCodeEditor("SERPIENTE_FULL.vhd", 560, 289); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 560, 289); // bP
+typeControlKey((HResource) null, "SERPIENTE_FULL.vhd", 'v'); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 536, 397); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 257, 287); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 252, 314); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 233, 337); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 242, 360); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 242, 360); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 230, 384); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 238, 419); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 254, 431); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 408, 376); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // m
+selectCodeEditor("Basys-3-Master.xdc", 408, 376, false, false, false, true, false); // bP - Popup Trigger
+selectCodeEditor("Basys-3-Master.xdc", 352, 443); // bP
+selectCodeEditor("Basys-3-Master.xdc", 450, 460); // bP
+selectCodeEditor("Basys-3-Master.xdc", 552, 483); // bP
+selectCodeEditor("Basys-3-Master.xdc", 457, 533); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE_FULL.vhd", 4); // m
+selectCodeEditor("SERPIENTE_FULL.vhd", 135, 585); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 266, 595); // bP
+selectCodeEditor("SERPIENTE_FULL.vhd", 401, 510); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // m
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic (2)", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE_FULL.vhd", 4); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic (2)", 3); // m
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // E
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // E
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SERPIENTE.vhd", 1); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' is already up-to-date 
+// Tcl Message: [Mon Dec 19 23:22:18 2022] Launched synth_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/synth_1/runme.log [Mon Dec 19 23:22:18 2022] Launched impl_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("SERPIENTE.vhd", 1081, 26); // bP
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // o
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // o
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// ag (cs): Implementation Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ag
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+// A (cs): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cs):  Close : addNotify
+dismissDialog("Confirm Close"); // A
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,677 MB. GUI used memory: 136 MB. Current time: 12/19/22, 11:23:30 PM CET
+// Engine heap size: 3,677 MB. GUI used memory: 136 MB. Current time: 12/19/22, 11:23:30 PM CET
+// WARNING: HEventQueue.dispatchEvent() is taking  1141 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bz
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'La_serpiente/display/Divisor_frecuencia/cambio_reg[3]/Q' [C:/Users/maria/Desktop/div_freq.vhd:68]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\maria\Desktop\div_freq.vhd;-;;-;16;-;line;-;68;-;;-;16;-;"); // ah
+// WARNING: HEventQueue.dispatchEvent() is taking  1197 ms.
+// Elapsed time: 51 seconds
+selectCodeEditor("div_freq.vhd", 201, 451); // bP
+selectCodeEditor("div_freq.vhd", 200, 442); // bP
+// Elapsed time: 23 seconds
+selectCodeEditor("div_freq.vhd", 40, 287); // bP
+selectCodeEditor("div_freq.vhd", 194, 440); // bP
+selectCodeEditor("div_freq.vhd", 140, 518); // bP
+// Elapsed time: 17 seconds
+selectCodeEditor("div_freq.vhd", 144, 561); // bP
+selectCodeEditor("div_freq.vhd", 76, 164); // bP
+typeControlKey((HResource) null, "div_freq.vhd", 'v'); // bP
+selectCodeEditor("div_freq.vhd", 76, 164); // bP
+selectCodeEditor("div_freq.vhd", 381, 286); // bP
+// Elapsed time: 290 seconds
+selectCodeEditor("div_freq.vhd", 947, 185); // bP
+// Elapsed time: 203 seconds
+selectCodeEditor("div_freq.vhd", 901, 361); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("div_freq.vhd", 91, 491); // bP
+selectCodeEditor("div_freq.vhd", 294, 466); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' is already up-to-date 
+// Tcl Message: [Mon Dec 19 23:34:19 2022] Launched synth_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/synth_1/runme.log [Mon Dec 19 23:34:19 2022] Launched impl_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Failed: addNotify
+// Elapsed time: 67 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ag
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 1st driver pin 'La_serpiente/gestiona/puntuacion_reg__0/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:112]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\maria\Desktop\Serpiente_Display_movimientosorientados\Serpiente\Serpiente.srcs\sources_1\new\gestor.vhd;-;;-;16;-;line;-;112;-;;-;16;-;"); // ah
+// WARNING: HEventQueue.dispatchEvent() is taking  1287 ms.
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 1st driver pin 'La_serpiente/gestiona/puntuacion_reg__0/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:112]. ]", 5, true, false, false, false, false, true); // ah - Double Click - Node
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 1st driver pin 'La_serpiente/gestiona/puntuacion_reg__0/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:112]. , [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 2nd driver pin 'La_serpiente/gestiona/puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:289]. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\maria\Desktop\Serpiente_Display_movimientosorientados\Serpiente\Serpiente.srcs\sources_1\new\gestor.vhd;-;;-;16;-;line;-;289;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 1st driver pin 'La_serpiente/gestiona/puntuacion_reg__0/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:112]. , [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 2nd driver pin 'La_serpiente/gestiona/puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:289]. ]", 6, false, false, false, false, false, true); // ah - Double Click
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // o
+// bz (cs):  Open Elaborated Design : addNotify
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] 
+// Tcl Message: INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' 
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: SERPIENTE_FULL 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 3,677 MB. GUI used memory: 135 MB. Current time: 12/19/22, 11:36:31 PM CET
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2552 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 3839.508 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'SERPIENTE_FULL' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE_FULL.vhd:58] INFO: [Synth 8-3491] module 'SERPIENTE' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE.vhd:27' bound to instance 'La_serpiente' of component 'SERPIENTE' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE_FULL.vhd:101] INFO: [Synth 8-638] synthesizing module 'SERPIENTE' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE.vhd:49] 
+// Tcl Message: 	Parameter ancho_tablero bound to: 512 - type: integer  	Parameter alto_tablero bound to: 256 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'draw' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/draw.vhd:34' bound to instance 'dibuja' of component 'draw' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE.vhd:179] INFO: [Synth 8-638] synthesizing module 'draw' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/draw.vhd:53] 
+// Tcl Message: 	Parameter ancho_tablero bound to: 512 - type: integer  	Parameter alto_tablero bound to: 256 - type: integer  
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'contador' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/contador.vhd:28' bound to instance 'contador_x' of component 'contador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/driverVGA.vhd:105] INFO: [Synth 8-638] synthesizing module 'contador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/contador.vhd:37] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'contador' (3#1) [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/contador.vhd:37] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  	Parameter End_Of_Screen bound to: 639 - type: integer  	Parameter Start_Of_Pulse bound to: 655 - type: integer  	Parameter End_Of_Pulse bound to: 751 - type: integer  	Parameter End_Of_Line bound to: 799 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'comparador' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd:27' bound to instance 'comparador_x' of component 'comparador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/driverVGA.vhd:117] INFO: [Synth 8-638] synthesizing module 'comparador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd:42] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  	Parameter End_Of_Screen bound to: 639 - type: integer  	Parameter Start_Of_Pulse bound to: 655 - type: integer  	Parameter End_Of_Pulse bound to: 751 - type: integer  	Parameter End_Of_Line bound to: 799 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'comparador' (4#1) [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd:42] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'contador' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/contador.vhd:28' bound to instance 'contador_y' of component 'contador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/driverVGA.vhd:136] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  	Parameter End_Of_Screen bound to: 479 - type: integer  	Parameter Start_Of_Pulse bound to: 489 - type: integer  	Parameter End_Of_Pulse bound to: 491 - type: integer  	Parameter End_Of_Line bound to: 520 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'comparador' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd:27' bound to instance 'comparador_y' of component 'comparador' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/driverVGA.vhd:148] INFO: [Synth 8-638] synthesizing module 'comparador__parameterized1' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd:42] 
+// Tcl Message: 	Parameter Nbit bound to: 10 - type: integer  	Parameter End_Of_Screen bound to: 479 - type: integer  	Parameter Start_Of_Pulse bound to: 489 - type: integer  	Parameter End_Of_Pulse bound to: 491 - type: integer  	Parameter End_Of_Line bound to: 520 - type: integer  
+// Tcl Message: 	Parameter Bits_R bound to: 4 - type: integer  	Parameter Bits_G bound to: 4 - type: integer  	Parameter Bits_B bound to: 4 - type: integer  
+// Tcl Message: INFO: [Synth 8-3491] module 'RGB_divider' declared at 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/RGB_divider.vhd:29' bound to instance 'divisor_RGB' of component 'RGB_divider' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE_FULL.vhd:123] INFO: [Synth 8-638] synthesizing module 'RGB_divider' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/RGB_divider.vhd:39] 
+// Tcl Message: 	Parameter Bits_R bound to: 4 - type: integer  	Parameter Bits_G bound to: 4 - type: integer  	Parameter Bits_B bound to: 4 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'RGB_divider' (15#1) [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/RGB_divider.vhd:39] INFO: [Synth 8-256] done synthesizing module 'SERPIENTE_FULL' (16#1) [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE_FULL.vhd:58] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 3839.508 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 3839.508 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 3839.508 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'c:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'La_serpiente/tablero' INFO: [Project 1-454] Reading design checkpoint 'c:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.dcp' for cell 'La_serpiente/sprite' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 3839.508 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2021.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/constrs_1/imports/imports/Basys-3-Master.xdc] Finished Parsing XDC File [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/constrs_1/imports/imports/Basys-3-Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3839.508 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 3839.508 ; gain = 0.000 
+// Tcl Message: 65 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 3839.508 ; gain = 0.000 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 10 seconds
+dismissDialog("Open Elaborated Design"); // bz
+// Elapsed time: 10 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "Schematic_zoom_out"); // E
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gestor.vhd", 6); // m
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aK
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 1st driver pin 'La_serpiente/gestiona/puntuacion_reg__0/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:112]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\maria\Desktop\Serpiente_Display_movimientosorientados\Serpiente\Serpiente.srcs\sources_1\new\gestor.vhd;-;;-;16;-;line;-;112;-;;-;16;-;"); // ah
+// Elapsed time: 20 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 1st driver pin 'La_serpiente/gestiona/puntuacion_reg__0/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:112]. , [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 2nd driver pin 'La_serpiente/gestiona/puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:289]. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\maria\Desktop\Serpiente_Display_movimientosorientados\Serpiente\Serpiente.srcs\sources_1\new\gestor.vhd;-;;-;16;-;line;-;289;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 1st driver pin 'La_serpiente/gestiona/puntuacion_reg__0/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:112]. , [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 2nd driver pin 'La_serpiente/gestiona/puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:289]. ]", 6, false, false, false, false, false, true); // ah - Double Click
+selectCodeEditor("gestor.vhd", 84, 271); // bP
+selectCodeEditor("gestor.vhd", 655, 386); // bP
+selectCodeEditor("gestor.vhd", 121, 186); // bP
+selectCodeEditor("gestor.vhd", 42, 60); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' is already up-to-date 
+// Tcl Message: [Mon Dec 19 23:38:03 2022] Launched synth_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/synth_1/runme.log [Mon Dec 19 23:38:03 2022] Launched impl_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Failed: addNotify
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/cablext_enable with 1st driver pin 'La_serpiente/gestiona/p_puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:289]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\maria\Desktop\Serpiente_Display_movimientosorientados\Serpiente\Serpiente.srcs\sources_1\new\gestor.vhd;-;;-;16;-;line;-;289;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/cablext_enable with 1st driver pin 'La_serpiente/gestiona/p_puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:289]. , [Synth 8-6859] multi-driven net on pin La_serpiente/gestiona/puntuacion with 2nd driver pin 'La_serpiente/gestiona/puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:296]. ]", 8, false, false, false, false, false, true); // ah - Double Click
+// Elapsed time: 13 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/cablext_enable with 1st driver pin 'La_serpiente/gestiona/p_puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:289]. , [Synth 8-6859] multi-driven net on pin La_serpiente/cablext_enable with 2nd driver pin 'La_serpiente/gestiona/p_puntuacion_reg__0/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:88]. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\maria\Desktop\Serpiente_Display_movimientosorientados\Serpiente\Serpiente.srcs\sources_1\new\gestor.vhd;-;;-;16;-;line;-;88;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/cablext_enable with 1st driver pin 'La_serpiente/gestiona/p_puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:289]. , [Synth 8-6859] multi-driven net on pin La_serpiente/cablext_enable with 2nd driver pin 'La_serpiente/gestiona/p_puntuacion_reg__0/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:88]. ]", 6, false, false, false, false, false, true); // ah - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("gestor.vhd", 240, 390); // bP
+selectCodeEditor("gestor.vhd", 110, 390); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("gestor.vhd", 223, 386); // bP
+selectCodeEditor("gestor.vhd", 441, 345); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("gestor.vhd", 166, 346); // bP
+selectCodeEditor("gestor.vhd", 378, 387); // bP
+// Elapsed time: 32 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 225 MB (+298kb) [00:51:23]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' is already up-to-date 
+// Tcl Message: [Mon Dec 19 23:41:10 2022] Launched synth_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/synth_1/runme.log [Mon Dec 19 23:41:10 2022] Launched impl_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Implementation Failed: addNotify
+// Elapsed time: 68 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/cablext_enable with 1st driver pin 'La_serpiente/gestiona/puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:296]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\maria\Desktop\Serpiente_Display_movimientosorientados\Serpiente\Serpiente.srcs\sources_1\new\gestor.vhd;-;;-;16;-;line;-;296;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6859] multi-driven net on pin La_serpiente/cablext_enable with 1st driver pin 'La_serpiente/gestiona/puntuacion_reg/Q' [C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd:296]. ]", 5, true, false, false, false, false, true); // ah - Double Click - Node
+selectCodeEditor("gestor.vhd", 91, 256); // bP
+selectCodeEditor("gestor.vhd", 414, 289); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("gestor.vhd", 88, 418); // bP
+selectCodeEditor("gestor.vhd", 236, 322); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 24, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'cA' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' is already up-to-date 
+// Tcl Message: [Mon Dec 19 23:42:49 2022] Launched synth_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/synth_1/runme.log [Mon Dec 19 23:42:49 2022] Launched impl_1... Run output will be captured here: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 117 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bz (cs):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1116 ms.
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bz
+// Elapsed time: 20 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // an
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bz (cs):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2021.1   **** Build date : Jun 10 2021 at 20:17:23     ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2021.1   ****** Build date   : May 26 2021-19:32:33     **** Build number : 2021.1.1622050353       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 3839.508 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B31800A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cs):  Program Device : addNotify
+dismissDialog("Program Device"); // bC
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bz
+// HMemoryUtils.trashcanNow. Engine heap size: 3,688 MB. GUI used memory: 158 MB. Current time: 12/19/22, 11:45:51 PM CET
+// Elapsed time: 77 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cs): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// bz (cs):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.runs/impl_1/SERPIENTE_FULL.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bz
+// Elapsed time: 54 seconds
+selectCodeEditor("SERPIENTE.vhd", 375, 485); // bP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B31800A 
+// o (cs): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 388 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // o

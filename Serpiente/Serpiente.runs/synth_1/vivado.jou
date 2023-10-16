@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Dec 20 10:48:58 2022
+# Process ID: 10932
+# Current directory: C:/Users/drito/OneDrive/Escritorio/Serpiente_Final/Serpiente/Serpiente.runs/synth_1
+# Command line: vivado.exe -log SERPIENTE_FULL.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SERPIENTE_FULL.tcl
+# Log file: C:/Users/drito/OneDrive/Escritorio/Serpiente_Final/Serpiente/Serpiente.runs/synth_1/SERPIENTE_FULL.vds
+# Journal file: C:/Users/drito/OneDrive/Escritorio/Serpiente_Final/Serpiente/Serpiente.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SERPIENTE_FULL.tcl -notrace

@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Serpiente.srcs/sources_1/new/RGB_divider.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/SERPIENTE.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/SERPIENTE_FULL.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/botones_definitivo.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/comparador.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/contador.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/draw.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/driverVGA.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/frec_pixel.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/gen_color.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/gestor.vhd" \
+"../../../../Serpiente.srcs/sources_1/new/simulacion.vhd" \
+
+# Do not sort compile order
+nosort

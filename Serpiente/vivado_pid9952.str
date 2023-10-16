@@ -1,0 +1,147 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 9952
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Dec 19 23:50:48 CET 2022
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 2560x1440
+Screen resolution (DPI): 150
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+Scale size: 27
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	maria
+User home directory: C:/Users/maria
+User working directory: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente
+User country: 	ES
+User language: 	es
+User locale: 	es_ES
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2021.1
+RDI_DATADIR: C:/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/maria/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/maria/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/maria/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/vivado.log
+Vivado journal file: 	C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/vivado.jou
+Engine tmp dir: 	C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/.Xil/Vivado-9952-Maria
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,256 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\maria\Desktop\Serpiente_Display_movimientosorientados\Serpiente\Serpiente.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,256 MB. GUI used memory: 72 MB. Current time: 12/19/22, 11:50:49 PM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 112 MB (+115439kb) [00:00:22]
+// [Engine Memory]: 1,256 MB (+1165265kb) [00:00:22]
+// [GUI Memory]: 119 MB (+920kb) [00:00:24]
+// [GUI Memory]: 131 MB (+6640kb) [00:00:25]
+// WARNING: HEventQueue.dispatchEvent() is taking  7364 ms.
+// Tcl Message: open_project C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1092 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1495.941 ; gain = 0.000 
+// [GUI Memory]: 140 MB (+1814kb) [00:00:29]
+// Project name: Serpiente; location: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 149 MB (+2716kb) [00:00:53]
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 168 MB (+11805kb) [00:01:12]
+// Elapsed time: 44 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd)]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SERPIENTE_FULL_tb(test_bench) (simulacion.vhd), DUT : SERPIENTE_FULL(Behavioral) (SERPIENTE_FULL.vhd), La_serpiente : SERPIENTE(Behavioral) (SERPIENTE.vhd)]", 3); // D
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 207 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // o
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+// Elapsed time: 10 seconds
+String[] filenames31467 = {"C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/cont_digit.vhd", "C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/deco.vhd", "C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/display_control_p1.vhd", "C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/div_freq.vhd", "C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/reg_despl.vhd"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 15 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/deco.vhd C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/div_freq.vhd C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/reg_despl.vhd C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/cont_digit.vhd C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/display_control_p1.vhd} 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i

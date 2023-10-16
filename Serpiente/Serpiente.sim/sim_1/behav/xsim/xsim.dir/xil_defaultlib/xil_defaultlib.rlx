@@ -1,0 +1,19 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/maria/Desktop/Serpiente/Serpiente.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1671384408,verilog,,,,blk_mem_gen_0,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v,1671384406,verilog,,C:/Users/maria/Desktop/Serpiente/Serpiente.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,,blk_mem_gen_1,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.sim/sim_1/behav/xsim/glbl.v,1623366982,verilog,,,,glbl,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/RGB_divider.vhd,1671383101,vhdl,,,,rgb_divider,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE.vhd,1671450489,vhdl,,,,serpiente,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/SERPIENTE_FULL.vhd,1671311644,vhdl,,,,serpiente_full,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/botones_definitivo.vhd,1671287924,vhdl,,,,botones_definitivo,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/comparador.vhd,1670522056,vhdl,,,,comparador,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/contador.vhd,1670522148,vhdl,,,,contador,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/draw.vhd,1671309278,vhdl,,,,draw,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/driverVGA.vhd,1671293236,vhdl,,,,drivervga,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/frec_pixel.vhd,1670515556,vhdl,,,,frec_pixel,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/gen_color.vhd,1671366012,vhdl,,,,gen_color,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/gestor.vhd,1671448638,vhdl,,,,gestor,,,,,,,,
+C:/Users/maria/Desktop/Serpiente/Serpiente.srcs/sources_1/new/simulacion.vhd,1671449961,vhdl,,,,serpiente_full_tb,,,,,,,,

@@ -1,0 +1,42 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 3f16015957524035bf4e2bc3f752c873 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SERPIENTE_FULL_tb_behav xil_defaultlib.SERPIENTE_FULL_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.draw [draw_default]
+Compiling architecture behavioral of entity xil_defaultlib.frec_pixel [frec_pixel_default]
+Compiling architecture behavioral of entity xil_defaultlib.contador [\contador(nbit=10)\]
+Compiling architecture behavioral of entity xil_defaultlib.comparador [\comparador(nbit=10,end_of_scree...]
+Compiling architecture behavioral of entity xil_defaultlib.comparador [\comparador(nbit=10,end_of_scree...]
+Compiling architecture behavioral of entity xil_defaultlib.gen_color [gen_color_default]
+Compiling architecture behavioral of entity xil_defaultlib.driverVGA [drivervga_default]
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_axi_regs_fwd_v8_4(C_DATA...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.blk_mem_gen_1
+Compiling architecture behavioral of entity xil_defaultlib.gestor [gestor_default]
+Compiling architecture behavioral of entity xil_defaultlib.botones_definitivo [botones_definitivo_default]
+Compiling architecture behavioral of entity xil_defaultlib.SERPIENTE [serpiente_default]
+Compiling architecture behavioral of entity xil_defaultlib.RGB_divider [\RGB_divider(bits_r=4,bits_g=4,b...]
+Compiling architecture behavioral of entity xil_defaultlib.SERPIENTE_FULL [serpiente_full_default]
+Compiling architecture test_bench of entity xil_defaultlib.serpiente_full_tb
+Built simulation snapshot SERPIENTE_FULL_tb_behav

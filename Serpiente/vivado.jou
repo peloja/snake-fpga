@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Dec 19 23:50:29 2022
+# Process ID: 22204
+# Current directory: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13464 C:\Users\maria\Desktop\Serpiente_Display_movimientosorientados\Serpiente\Serpiente.xpr
+# Log file: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/vivado.log
+# Journal file: C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/Serpiente/Serpiente.xpruupdate_compile_order -fileset sources_1add_files -norecurse {C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/deco.vhd C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/div_freq.vhd C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/reg_despl.vhd C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/cont_digit.vhd C:/Users/maria/Desktop/Serpiente_Display_movimientosorientados/display_control_p1.vhd}
+update_compile_order -fileset sources_1

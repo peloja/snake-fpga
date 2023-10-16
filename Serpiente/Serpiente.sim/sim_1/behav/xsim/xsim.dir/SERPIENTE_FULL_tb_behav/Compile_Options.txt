@@ -1,0 +1,1 @@
+-wto "3f16015957524035bf4e2bc3f752c873" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "blk_mem_gen_v8_4_4" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "SERPIENTE_FULL_tb_behav" "xil_defaultlib.SERPIENTE_FULL_tb" "xil_defaultlib.glbl" -log "elaborate.log" 
